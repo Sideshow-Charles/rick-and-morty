@@ -1,7 +1,12 @@
 import React from "react";
+import Header from "../src/components/Header"
 
-const test = () => {
-  return
+const App = () => {
+  return (
+    <div>
+      <Header />
+    </div>
+  )
 }
 
-export default test
+export default App
