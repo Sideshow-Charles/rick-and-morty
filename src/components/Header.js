@@ -3,7 +3,7 @@ import Logo from "../assets/images/Logo.png"
 
 const Header = () => {
     return (
-        <div className="pl-5 pr-5 mt-3 flex">
+        <div className="pl-5 pr-5 mt-3 flex justify-between">
             <div className="logo__container">
                 <img src={Logo} alt="App Logo" className="w-1/6" />
             </div>
