@@ -1,6 +1,6 @@
 import React from "react";
 import HeroImage from "../assets/images/heroimage.jpeg";
-
+import HeroGif from "../assets/images/rick-and-morty gif.gif"
 
 const HeroSection = () => {
     return (
@@ -10,7 +10,7 @@ const HeroSection = () => {
                 Morty: Oh, yeah?<br /><br />
                 Rick: Yeah! I've got about a thousand memories of your dumb little ass and about six of them are pleasant. The rest is annoying garbage. So why don't you do us both a favor and pull the trigger? Do it! Do it, motherfucker! Pull the fucking trigger!</h1>
 
-            <img src={HeroImage} alt="Hero Image" className="mb-28 w-9/12" />
+            <img src={HeroGif} alt="Hero Image" className="mb-28 w-9/12" />
         </div>
     )
 }
