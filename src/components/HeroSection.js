@@ -1,5 +1,4 @@
 import React from "react";
-// import { useEffect } from "react";
 import HeroImage from "../assets/images/2294143541-RAMMobileHero.webp"
 import Gallery1 from "../assets/images/220917-smith-rick-and-morty-hero_csirl9.jpeg"
 import Gallery2 from "../assets/images/Rick-and-Morty-Netflix-Nederland-verwijderd-1068x601.png.webp"
@@ -13,14 +12,6 @@ import Gallery9 from "../assets/images/rick-morty-season-5.jpg"
 import Gallery10 from "../assets/images/rick3.webp"
 
 const HeroSection = () => {
-    // useEffect(() => {
-    //    const Characters = fetch(`https://rickandmortyapi.com/api/character`)
-    //         .then((response => response.json()))
-    //         .then((data => console.log(data)))
-
-    //         console.log(Characters[1].name);
-    // })
-
     return (
         <div>
             <p className="font-indie text-6xl text-emerald-400 mt-36 ml-16 mr-16">CHECK OUT LOCATIONS, CHARACTERS AND EPISODES OF YOUR FAVORITE TV SHOW, RICK & MORTY<br></br> Wubba Lubba Dub Dub!</p>
