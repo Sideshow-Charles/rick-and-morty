@@ -13,7 +13,7 @@ import Gallery10 from "../assets/images/rick3.webp"
 
 const ImageGallery = () => {
     return (
-        <div className="flex justify-around flex-wrap ml-20 mr-20 mt-48 mb-24">
+        <div className="flex justify-around flex-wrap ml-20 mr-20 mt-48 mb-24 max-sm:ml-5 max-sm:mr-5">
             <img src={Gallery1} alt="Gallery" className="w-2/6 " />
             <img src={Gallery2} alt="Gallery" className="w-2/6 " />
             <img src={Gallery3} alt="Gallery" className="w-2/6 " />
